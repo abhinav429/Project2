@@ -1,0 +1,171 @@
+body {
+  font-family: 'Montserrat';
+  text-align:center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Bold';
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {}
+
+p {
+  color: #8f8f8f;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* headings */
+.big-heading {
+  font-family: 'Montserrat-Black', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+/* title */
+#title {
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+
+/* NAVIGATION BAR */
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat light';
+}
+
+/* DOWNLOAD BUTTONS */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* TITLE image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* divs */
+.easy {
+  margin: 0;
+  padding: 5%;
+}
+
+/* icons */
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+/* FEATURES SECTION */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+/* TESTIMONIALS */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* PRESS */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* MEDIA */
+@media(max-width:1047px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  /* ending page */
+}
+
+#cta {
+  background-image: linear-gradient(325deg, #e6632f 20%, #675898 80%);
+  padding: 7% 15%;
+}
+
+.color {
+  color: #fff;
+  font-family: 'Montserrat-Black';
+  font-size: 4rem;
+}
+
+.footer-p {
+  margin: 0;
+  font-size: 15px;
+}
+
+.life {
+  margin: 30px 49px;
+}
+
+.logo {
+  padding: 0 30px;
+}
+
+.combine {
+  position: relative;
+  top: 90px;
+}
